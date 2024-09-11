@@ -1,0 +1,101 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rosy Paws Pet Care</title>
+  </head>
+  <body>
+    <h1 id="title">Rosy Paws Pet Care</h1>
+    <p id="description">Sign up for all your pet care needs!</p>
+
+    <!-- Survey Form -->
+    <form id="survey-form" action="https://example.com/submit" method="post">
+
+      <!-- Fieldset for personal details -->
+      <fieldset>
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Enter your name" required>
+
+        <label id="email-label" for="email">Email</label>
+        <input name="email" type="email" id="email" placeholder="Enter your email" required>
+
+        <label id="number-label" for="number">Phone Number</label>
+        <input type="number" id="number" name="phone" placeholder="Enter your phone number" min="1" max="9999999999">
+      </fieldset>
+
+      <!-- Fieldset for service selection -->
+      <fieldset>
+        <label>Which Service Do You Need?</label>
+        <select id="dropdown" name="service">
+          <option value="none">(Select one)</option>
+          <option value="dog-walk">Dog Walk</option>
+          <option value="home-visit">Home Visit</option>
+          <option value="doggy-day-care">Doggy Day Care</option>
+          <option value="dog-cat-boarding">Dog or Cat Boarding</option>
+        </select>
+      </fieldset>
+
+      <!-- First Radio Button Group: How did you hear about us? -->
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+        <input type="radio" name="howHear" value="searchengine" required>
+        <label>Search Engine</label>
+        <input type="radio" name="howHear" value="socialmedia">
+        <label>Social Media</label>
+        <input type="radio" name="howHear" value="recommend">
+        <label>Recommended by a friend/family</label>
+      </fieldset>
+
+      <!-- Second Radio Button Group: Preferred Contact Method -->
+      <fieldset>
+        <legend>Preferred Contact Method</legend>
+        <input type="radio" name="contactMethod" value="email" required>
+        <label>Email</label>
+        <input type="radio" name="contactMethod" value="phone">
+        <label>Phone</label>
+      </fieldset>
+
+      <!-- Checkbox Group -->
+      <fieldset>
+        <legend>Select Services</legend>
+        <input type="checkbox" name="service-dogwalk" value="dogwalk">
+        <label for="service-dogwalk">Dog Walking</label><br>
+        <input type="checkbox" name="service-boarding" value="boarding">
+        <label for="service-boarding">Dog or Cat Boarding</label><br>
+      </fieldset>
+
+      <!-- Textarea for additional comments -->
+      <fieldset>
+        <legend>Additional Comments</legend>
+        <textarea name="comments" id="comments" rows="4" placeholder="Enter any additional comments or questions here"></textarea>
+      </fieldset>
+
+      <!-- Submit Button -->
+      <input id="submit" type="submit" value="Submit">
+      
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+h1 {
+  color: pink;
+}
+body {
+  background-color: grey;
+  font-family: Sans-serif;
+  color: pink;
+  width: 0 auto;
+  margin: 0 auto;
+
+}
+
+
+** end of undefined **
