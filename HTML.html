@@ -1,14 +1,13 @@
-** start of undefined **
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <title>Rosy Paws Pet Care</title>
+    <title>Rosy Paws</title>
   </head>
   <body>
-    <h1 id="title">Rosy Paws Pet Care</h1>
+    <h1>Rosy Paws</h1>
+    <h2>Pet Care Services</h2>
     <p id="description">Sign up for all your pet care needs!</p>
 
     <!-- Survey Form -->
@@ -16,18 +15,19 @@
 
       <!-- Fieldset for personal details -->
       <fieldset>
-        <label id="name-label" for="name">Name</label>
-        <input id="name" type="text" name="name" placeholder="Enter your name" required>
+        <legend>Personal Details</legend>
+       <label id="name-label" for="name">Name:</label> <input id="name" type="text" name="name" placeholder="Enter your name" required>
 
-        <label id="email-label" for="email">Email</label>
-        <input name="email" type="email" id="email" placeholder="Enter your email" required>
-
-        <label id="number-label" for="number">Phone Number</label>
-        <input type="number" id="number" name="phone" placeholder="Enter your phone number" min="1" max="9999999999">
-      </fieldset>
+      <label id="email-label" for="email">Email:</label> <input name="email" type="email" id="email" placeholder="Enter your email" required>
+       
+      <label id="number-label" for="number">Phone Number:</label> <input type="text" id="number" name="phone" placeholder="Enter your phone number">
+      
+    
+    </fieldset>
 
       <!-- Fieldset for service selection -->
       <fieldset>
+        <legend>Services</legend>
         <label>Which Service Do You Need?</label>
         <select id="dropdown" name="service">
           <option value="none">(Select one)</option>
@@ -40,7 +40,7 @@
 
       <!-- First Radio Button Group: How did you hear about us? -->
       <fieldset>
-        <legend>How did you hear about us?</legend>
+        <legend>How Did You Hear About Us?</legend>
         <input type="radio" name="howHear" value="searchengine" required>
         <label>Search Engine</label>
         <input type="radio" name="howHear" value="socialmedia">
@@ -81,21 +81,4 @@
 </html>
 
 
-** end of undefined **
 
-** start of undefined **
-
-h1 {
-  color: pink;
-}
-body {
-  background-color: grey;
-  font-family: Sans-serif;
-  color: pink;
-  width: 0 auto;
-  margin: 0 auto;
-
-}
-
-
-** end of undefined **
